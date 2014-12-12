@@ -1,4 +1,7 @@
-拿到一个RK3288的开发板，但是不得不说adb shell不太好用，于是想着把busybox编译进去。
+拿到一个RK3288的开发板，但是不得不说adb shell不太好用，像下面这样太锉了。
+![在此输入图片描述][1]
+
+于是想着把busybox编译进去。
 
 # 1.  准备编译环境
 
@@ -66,15 +69,15 @@ Ubuntu 13.10/14.04 软件包安装：
 ## 4.2 静态编译
 建议使用静态编译；
     Busybox Settings --> Build Options --> Build Busybox as a static binary (no shared libs)  -  Enable this option by pressing "Y"
-![在此输入图片描述][1]
+![在此输入图片描述][2]
 
 ## 4.3  不包含/usr目录
  Busybox Settings --> Installation Options --> Don't use /usr  -  Enable this option by pressing "Y"
-![在此输入图片描述][2]
+![在此输入图片描述][3]
 
 ## 4.4 安装目录
 上一步的install目录，要使用绝对路径。
-![在此输入图片描述][3]
+![在此输入图片描述][4]
 
 ## 4.5 最后按【ESC】，提示保存时保存。
 
@@ -97,11 +100,12 @@ Ubuntu 13.10/14.04 软件包安装：
 
 # 7. 完结。
 
-看下效果，如果配合安装个SSH SERVER用就更爽了，完全脱离adb，主要是有VI 了，可以远程键盘编辑了。
-![在此输入图片描述][4]
+看下效果，跟前面adb shell是不是天壤之别了。如果再配合安装个SSH SERVER用就更爽了，完全脱离adb，主要是有VI 了，可以远程键盘编辑了。
+![在此输入图片描述][5]
 
 
-  [1]: http://static.oschina.net/uploads/space/2014/1213/020418_Ujtu_438461.jpg
-  [2]: http://static.oschina.net/uploads/space/2014/1213/020443_zwSx_438461.jpg
-  [3]: http://static.oschina.net/uploads/space/2014/1213/020502_5WQG_438461.jpg
-  [4]: http://static.oschina.net/uploads/space/2014/1213/021812_tEkq_438461.jpg
+  [1]: http://static.oschina.net/uploads/space/2014/1213/025853_uIyJ_438461.jpg
+  [2]: http://static.oschina.net/uploads/space/2014/1213/020418_Ujtu_438461.jpg
+  [3]: http://static.oschina.net/uploads/space/2014/1213/020443_zwSx_438461.jpg
+  [4]: http://static.oschina.net/uploads/space/2014/1213/020502_5WQG_438461.jpg
+  [5]: http://static.oschina.net/uploads/space/2014/1213/021812_tEkq_438461.jpg
