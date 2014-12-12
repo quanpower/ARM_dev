@@ -18,24 +18,24 @@
 Ubuntu 12.04 软件包安装：
 
     sudo apt-get install git gnupg flex bison gperf build-essential \
-     zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
-     libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
-     g++-multilib mingw32 tofrodos gcc-multilib ia32-libs\
-     python-markdown libxml2-utils xsltproc zlib1g-dev:i386
+    zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
+    libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
+    g++-multilib mingw32 tofrodos gcc-multilib ia32-libs\
+    python-markdown libxml2-utils xsltproc zlib1g-dev:i386
 
 Ubuntu 13.10/14.04 软件包安装：
 
     sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev \
-     libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl \
-     libncurses5-dev zlib1g-dev pngcrush schedtool libxml2 libxml2-utils \
-     xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev \
-     lib32readline-gplv2-dev gcc-multilib libswitch-perl
+    libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl \
+    libncurses5-dev zlib1g-dev pngcrush schedtool libxml2 libxml2-utils \
+    xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev \
+    lib32readline-gplv2-dev gcc-multilib libswitch-perl
 
 ## 1.3 安装 ARM 交叉编译工具链和编译内核相关软件包：
 
     sudo apt-get install gcc-arm-linux-gnueabihf \
-     lzop libncurses5-dev \
-     libssl1.0.0 libssl-dev
+    lzop libncurses5-dev \
+    libssl1.0.0 libssl-dev
 
 这里至于gcc-arm-linux-gnueabihf还是gcc-arm-linux-gnueabi要看你芯片，应该是hard float吧
 
