@@ -19,5 +19,7 @@ ssh-keygen -f "/home/quanpower/.ssh/known_hosts" -R 54.254.228.240
 	IdentityFile ~/.ssh/smartlinkcloud.pem
 	CompressionLevel 6
 	DynamicForward localhost:3128
+## use 
+ssh aws
 ## edit proxy,or use autoproxy plugin
 
